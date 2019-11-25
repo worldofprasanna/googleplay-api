@@ -1,6 +1,6 @@
 import sys
 import os
-from gpapi.googleplay import GooglePlayAPI
+from gpapi_login_fix.googleplay import GooglePlayAPI
 
 def main():
   username = os.environ['GMAIL_USERNAME']

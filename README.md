@@ -2,9 +2,13 @@
 
 This fork is mainly to fix the [issue](https://github.com/NoMore201/googleplay-api/issues/98) with login. 
 
-Note: To disable captcha security you have to unlock it using this [url](https://accounts.google.com/b/0/DisplayUnlockCaptcha)
+This needs 2 changes to be done,
 
-To download the apk file use this command,
+1. Install this package from pypi using `pip install gpapi-login-fix`
+
+2. To disable captcha security you have to unlock it using this [url](https://accounts.google.com/b/0/DisplayUnlockCaptcha)
+
+To test the download apk use this command,
 
 ```
 GMAIL_USERNAME=<> GMAIL_PASSWORD=<> APP_ID=<> STORAGE_PATH=<> python download_apk.py

@@ -23,7 +23,7 @@ class ProtobufBuilder(_build):
             CURRENT_DIR + "/googleplay.proto"])
         super().run()
 
-setup(name='gpapi',
+setup(name='gpapi_login_fix',
       version='0.4.4',
       description='Unofficial python api for google play',
       url='https://github.com/worldofprasanna/googleplay-api',
@@ -31,9 +31,9 @@ setup(name='gpapi',
       author='NoMore201',
       author_email='domenico.iezzi.201@gmail.com',
       license='GPL3',
-      packages=['gpapi'],
+      packages=['gpapi_login_fix'],
       package_data={
-          'gpapi': [
+          'gpapi_login_fix': [
               'config.py'
               'device.properties',
               'googleplay_pb2.py',
