@@ -1,5 +1,15 @@
 # Google play python API [![Build Status](https://travis-ci.org/NoMore201/googleplay-api.svg?branch=master)](https://travis-ci.org/NoMore201/googleplay-api)
 
+This fork is mainly to fix the [issue](https://github.com/NoMore201/googleplay-api/issues/98) with login. 
+
+Note: To disable captcha security you have to unlock it using this [url](https://accounts.google.com/b/0/DisplayUnlockCaptcha)
+
+To download the apk file use this command,
+
+```
+GMAIL_USERNAME=<> GMAIL_PASSWORD=<> APP_ID=<> STORAGE_PATH=<> python download_apk.py
+```
+
 This project contains an unofficial API for google play interactions. The code mainly comes from
 [GooglePlayAPI project](https://github.com/egirault/googleplay-api/) which is not
 maintained anymore. The code was updated with some important changes:
